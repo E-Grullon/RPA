@@ -19,14 +19,14 @@ namespace RPA_HIGHQUALITY
 
           
             IWebElement ele = driver.FindElement(By.Name("loginfmt"));
-             ele.SendKeys("e.grullon12@unapec.edu.do"); 
+             ele.SendKeys("Insert username"); 
 
               
             IWebElement btnsearch = driver.FindElement(By.Id("idSIButton9"));
               btnsearch.Click();
 
             IWebElement dos = driver.FindElement(By.Name("passwd"));
-            dos.SendKeys("8maidito59#");
+            dos.SendKeys("Insertpassword");
 
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
 
